@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>  
+    <id>mandelbulber2</id>
+    <version>2.26</version>
+    <packageSourceUrl>https://github.com/JanWerder/chocolatey-mandelbulber2</packageSourceUrl>
+    <title>mandelbulber2 (Install)</title>
+    <authors>buddhi1980,mclarekin</authors>
+    <projectUrl>https://github.com/buddhi1980/mandelbulber2</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/buddhi1980/mandelbulber2/master/mandelbulber2/deploy/bulb.png</iconUrl>
+    <copyright>GNU GPL v3</copyright>
+    <licenseUrl>https://github.com/buddhi1980/mandelbulber2/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/buddhi1980/mandelbulber2</projectSourceUrl>
+    <docsUrl>https://github.com/buddhi1980/mandelbulber_doc/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/buddhi1980/mandelbulber2/issues</bugTrackerUrl>
+    <tags>mandelbulber2 fractals renderer</tags>
+    <summary>Mandelbulber creatively generates three-dimensional fractals.</summary>
+    <description>Explore trigonometric, hyper-complex, Mandelbox, IFS, and many other 3D fractals.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
