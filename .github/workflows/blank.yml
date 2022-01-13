@@ -1,0 +1,20 @@
+name: Pack & Publish
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Pack
+        run: choco pack
+        
+      - name: Publish
+        env:
+          CHOCO_SECRET: ${{secrets.CHOCO_SECRET}}
+        run: |
+          choco apikey -k $CHOCO_SECRET -source https://push.chocolatey.org/
+          choco push .\mandelbulber2*.nupkg -s https://push.chocolatey.org/
