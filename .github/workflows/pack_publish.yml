@@ -4,7 +4,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 jobs:
-  pack:
+  run:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
