@@ -13,9 +13,10 @@ jobs:
         run: choco pack
         
       - name: Set API Key
+        shell: powershell
         env:
             CHOCO_SECRET: ${{ secrets.CHOCO_SECRET }}
-        run: choco apikey -k "$CHOCO_SECRET" -source https://push.chocolatey.org/
+        run: choco apikey --api-key=$CHOCO_SECRET -source https://push.chocolatey.org/
         
       - name: Publish
         shell: powershell
