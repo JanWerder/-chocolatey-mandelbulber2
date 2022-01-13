@@ -12,14 +12,8 @@ jobs:
       - name: Pack
         run: choco pack
         
-#       - name: Set API Key
-#         shell: powershell
-#         env:
-#             CHOCO_SECRET: ${{ secrets.CHOCO_SECRET }}
-#         run: choco apikey --api-key=$CHOCO_SECRET -source https://push.chocolatey.org/
-        
       - name: Publish
         shell: powershell
         env:
           CHOCO_SECRET: ${{ secrets.CHOCO_SECRET }}
-        run: choco push .\mandelbulber2*.nupkg -s https://push.chocolatey.org/ --api-key=$CHOCO_SECRET 
+        run: choco push .\mandelbulber2*.nupkg -s https://push.chocolatey.org/ -k "$CHOCO_SECRET" 
