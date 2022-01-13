@@ -13,7 +13,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/buddhi1980/mandelbulber2</projectSourceUrl>
     <docsUrl>https://github.com/buddhi1980/mandelbulber_doc/</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/buddhi1980/mandelbulber2/issues</bugTrackerUrl>
     <tags>mandelbulber2 fractals renderer</tags>
     <summary>Mandelbulber creatively generates three-dimensional fractals.</summary>
