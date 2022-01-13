@@ -16,4 +16,4 @@ jobs:
         shell: powershell
         env:
           CHOCO_SECRET: ${{ secrets.CHOCO_SECRET }}
-        run: choco push .\mandelbulber2*.nupkg -s https://push.chocolatey.org/ -k "$CHOCO_SECRET" 
+        run: choco push --source "'https://push.chocolatey.org/'" -k="'$CHOCO_SECRET'" 
