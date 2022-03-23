@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>  
-    <id>mandelbulber2</id>
-    <version>2.26</version>
+    <id>chocolatey-mandelbulber2</id>
+    <version>2.27</version>
     <packageSourceUrl>https://github.com/JanWerder/chocolatey-mandelbulber2</packageSourceUrl>
     <title>mandelbulber2 (Install)</title>
     <authors>buddhi1980,mclarekin</authors>
@@ -17,7 +17,12 @@
     <bugTrackerUrl>https://github.com/buddhi1980/mandelbulber2/issues</bugTrackerUrl>
     <tags>mandelbulber2 fractals renderer</tags>
     <summary>Mandelbulber creatively generates three-dimensional fractals.</summary>
-    <description>Explore trigonometric, hyper-complex, Mandelbox, IFS, and many other 3D fractals.</description>
+    <description><![CDATA[
+# mandelbulber2
+Mandelbulber creatively generates three-dimensional fractals.
+Explore trigonometric, hyper-complex, Mandelbox, IFS, and many other 3D fractals.
+Render with a great palette of customizable materials to create stunning images and videos.
+]]></description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

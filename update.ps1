@@ -6,7 +6,7 @@ function global:au_SearchReplace {
     @{
         'tools\chocolateyinstall.ps1' = @{
             "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
-            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+            "(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
         'chocolatey-mandelbulber2.nuspec'  = @{
             "<id>.*</id>" = "<id>mandelbulber2</id>"
