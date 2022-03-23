@@ -6,8 +6,9 @@
     <packageSourceUrl>https://github.com/JanWerder/chocolatey-mandelbulber2</packageSourceUrl>
     <title>mandelbulber2 (Install)</title>
     <authors>buddhi1980,mclarekin</authors>
+    <owners>Jack5500</owners>
     <projectUrl>https://github.com/buddhi1980/mandelbulber2</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/buddhi1980/mandelbulber2/master/mandelbulber2/deploy/bulb.png</iconUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/mandelbulber/icon</iconUrl>
     <copyright>GNU GPL v3</copyright>
     <licenseUrl>https://github.com/buddhi1980/mandelbulber2/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
